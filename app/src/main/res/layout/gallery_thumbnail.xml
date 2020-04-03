@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.charmi.videogalleryapp.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:padding="3dp"
+        android:outlineAmbientShadowColor="@color/cardview_light_background"/>
+    <CheckBox
+        android:id="@+id/chkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:checked="true"
+        android:buttonTint="#5cadff"
+        android:layout_alignRight="@+id/thumbnail"
+        android:visibility="gone"/>
+
+</com.charmi.videogalleryapp.SquareLayout>
